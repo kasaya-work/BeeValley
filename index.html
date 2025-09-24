@@ -1,0 +1,251 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta keywords="株式会社TMホールディングス">
+  <meta name="description" content="株式会社TMホールディングスのコーポレートサイトです。">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="stylesheet" href="css/common.css">
+  <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+JP:wght@500;700&family=Poppins:wght@500;700&display=swap" rel="stylesheet">
+  <title>株式会社TMホールディングス</title>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-inner">
+        <h1 class="header-image">
+          <a href="index.html"><img src="images/logo.svg" alt="株式会社TMホールディングス"></a>
+        </h1>
+        <button class="hamburger" aria-label="メニューを開く" aria-controls="global-nav" aria-expanded="false">
+          <span class="hamburger__bar"></span>
+          <span class="hamburger__bar"></span>
+        </button>
+        <nav id="global-nav">
+          <ul>
+            <li><a href="news/index.html">NEWS</a></li>
+            <li><a href="#vision">企業理念</a></li>
+            <li><a href="#overview">会社概要</a></li>
+            <li><a href="#group">関連事業会社</a></li>
+          </ul>
+          <div class="nav-company-logo">
+            <img src="images/logo.svg" alt="株式会社TMホールディングス">
+          </div>
+          <div class="nav-company-text">株式会社TMホールディングス</div>
+        </nav>
+      </div>
+    </header>
+    <main>
+      <div id="main-image">
+        <div id="main-text">
+          <div><span>挑</span>み</div><br>
+          <div>つなぎ</div><br>
+          <div>価値を<span>創</span>る</div>
+        </div>
+        <div id="sub-text">
+          多彩な事業が交わり、ひとりひとりの力が響き合う。<br>
+          変化に挑み未来を切り拓く新たな価値を、<br class="pc">
+          私たちは共に創り続けます。
+        </div>
+        <picture>
+          <!-- メディアクエリは最終的には変えるので注意 -->
+          <source media="(max-width: 1023px)" srcset="images/mainimg-sp.png">
+          <img src="images/mainimage-pc.png" alt="株式会社TMホールディングス">
+        </picture>
+      </div>
+      <section id="news">
+        <h2>NEWS</h2>
+        <div class="news-box">
+          <ul class="news-list">
+            <li class="news-item">
+              <a href="news/news_20250827.html" class="news-link">
+                <span class="news-date">2025.08.27</span>
+                <span class="news-label">お知らせ</span>
+                <span class="news-title">NEWS個別記事③</span>
+              </a>
+            </li>
+            <li class="news-item">
+              <a href="news/news_20250826.html" class="news-link">
+                <span class="news-date">2025.08.26</span>
+                <span class="news-label">お知らせ</span>
+                <span class="news-title">NEWS個別記事②</span>
+              </a>
+            </li>
+            <li class="news-item">
+              <a href="news/news_20250825.html" class="news-link">
+                <span class="news-date">2025.08.25</span>
+                <span class="news-label">お知らせ</span>
+                <span class="news-title">NEWS個別記事①</span>
+              </a>
+            </li>
+          </ul>
+          <div class="news-more">
+            <a href="news/index.html" class="more-link">NEWS一覧→</a>
+          </div>
+        </div>
+      </section>
+      <section id="vision">
+        <h2>企業理念</h2>
+        <div class="vision-box">
+          <article>
+            <h3>MISSION</h3>
+            <h4>ミッション（使命）</h4>
+            <img src="images/img-mission.png" alt="MISSION">
+            <p>
+              人と事業が持つ可能性を引き出し、<br>
+              持続可能な進化を実現する
+            </p>
+          </article>
+          <article>
+            <h3>VISION</h3>
+            <h4>ビジョン（未来像）</h4>
+            <img src="images/img-vision.png" alt="VISION">
+            <p>
+              多様な事業と人がつながり、<br>
+              共鳴しながら新しい挑戦が<br>
+              次々と生まれる“価値共創グループ”へ
+            </p>
+          </article>
+          <article>
+            <h3>CORE VALUES</h3>
+            <h4>コアバリュー（共通価値観）</h4>
+            <div class="value-list">
+              <!-- Item 1 -->
+              <div class="value-item">
+                <div class="value-item-image">
+                  <picture>
+                    <source media="(max-width: 1023px)" srcset="images/img-core-01-sp.png">
+                    <img src="images/img-core-01-pc.png" alt="つながる人々のイメージ" />
+                  </picture>
+                  <div class="value-item-number">01</div>
+                </div>
+                <div class="value-item-content">
+                  <p class="value-item-title">ともに創る<br>ともに進む</p>
+                  <p class="value-item-text">
+                    人と組織の垣根を越え、つながりの中で価値を共創し続ける
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 2 -->
+              <div class="value-item">
+                <div class="value-item-image">
+                  <picture>
+                    <source media="(max-width: 1023px)" srcset="images/img-core-02-sp.png">
+                    <img src="images/img-core-02-pc.png" alt="考え込むビジネスマンのイメージ" />
+                  </picture>
+                  <div class="value-item-number">02</div>
+                </div>
+                <div class="value-item-content">
+                  <p class="value-item-title">本質を捉え、<br>自ら考え動く</p>
+                  <p class="value-item-text">
+                    表面的な課題に流されず、目的と本質を見極めて最適な行動を選ぶ
+                  </p>
+                </div>
+              </div>
+
+              <!-- Item 3 -->
+              <div class="value-item">
+                <div class="value-item-image">
+                  <picture>
+                    <source media="(max-width: 1023px)" srcset="images/img-core-03-sp.png">
+                    <img src="images/img-core-03-pc.png" alt="建設作業員のイメージ" />
+                  </picture>
+                  <div class="value-item-number">03</div>
+                </div>
+                <div class="value-item-content">
+                  <p class="value-item-title">誠実に、丁寧に、<br>責任を果たす</p>
+                  <p class="value-item-text">
+                    一つひとつの仕事に真摯に向き合い、信頼を築く行動を積み重ねる
+                  </p>
+                </div>
+              </div>
+            </div>
+          </article>
+        </div>
+      </section>
+      <section id="overview">
+        <article>
+          <h2>会社概要</h2>
+          <dl>
+            <dt>社　名</dt>
+            <dd>株式会社TMホールディングス</dd>
+            <dt>所在地</dt>
+            <dd>東京都大田区上池台４−２２−６</dd>
+            <dt>代表者</dt>
+            <dd>代表取締役社長　荒井　圭佑</dd>
+            <dt>設　立</dt>
+            <dd>2021年6月1日</dd>
+          </dl>
+          <dl class="access">
+            <dt>アクセス</dt>
+            <dd>
+              <p>
+                ・電車にて<br>
+                東急池上線「長原駅」より　徒歩10分<br>
+                東急大井町線「旗の台駅」より　徒歩15分<br>
+                都営浅草線「馬込駅」より　徒歩15分
+              </p>
+              <p>
+                ・バスにて<br>
+                最寄りバス停：東急バス「貝塚坂」より　徒歩2分<br>
+                東急バス「大森駅（山王口）」より　上池上循環（内回り）にて　12分<br>
+                東急バス「馬込駅前」より　上池上循環（内回り）にて　5分
+              </p>
+            </dd>
+          </dl>
+          <div class="map">
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3244.262719612556!2d139.69921237634466!3d35.59658547261476!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x60188abaa44ad4f7%3A0x8074871534364506!2z44CSMTQ1LTAwNjQg5p2x5Lqs6YO95aSn55Sw5Yy65LiK5rGg5Y-w77yU5LiB55uu77yS77yS4oiS77yWIOODluODqeOCpOOCuuS4iuaxoOWPsA!5e0!3m2!1sja!2sjp!4v1756448625097!5m2!1sja!2sjp" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </article>
+      </section>
+      <section id="group">
+        <article>
+          <h2>関連事業会社</h2>
+          <h4>株式会社TMホールディングスが率いる事業会社</h4>
+          <ul class="group-list">
+            <li class="group-item">
+              <a href="https://www.k-hsj.co.jp/" class="group-link" target="_blank">
+                <p class="icon-box"><img class="link-icon" src="images/icon-external-link.svg" alt="webサイトを表示"></p>
+                <img class="group-logo msj" src="images/logomark-hsj.png" alt="株式会社エイチ・エス・ジェイ">
+                <p class="group-name">株式会社エイチ・エス・ジェイ</p>
+              </a>
+            </li>
+            <li class="group-item">
+              <a href="https://www.k-mij.com/" class="group-link" target="_blank">
+                <p class="icon-box"><img class="link-icon" src="images/icon-external-link.svg" alt="webサイトを表示"></p>
+                <img class="group-logo mij" src="images/logomark-mij.png" alt="株式会社エム・アイ・ジェイ">
+                <p class="group-name">株式会社エム・アイ・ジェイ</p>
+              </a>
+            </li>
+            <li class="group-item">
+              <a href="https://www.bvalley.jp/" class="group-link" target="_blank">
+                <p class="icon-box"><img class="link-icon" src="images/icon-external-link.svg" alt="webサイトを表示"></p>
+                <img class="group-logo bv" src="images/logomark-beevalley.png" alt="株式会社ビーバレー">
+                <p class="group-name">株式会社ビーバレー</p>
+              </a>
+            </li>
+            <li class="group-item">
+              <a href="http://www.kowa-sys.co.jp/" class="group-link" target="_blank">
+                <p class="icon-box"><img class="link-icon" src="images/icon-external-link.svg" alt="webサイトを表示"></p>
+                <img class="group-logo ks" src="images/logomark-kowasys.png" alt="株式会社コーワシステム">
+                <p class="group-name">株式会社コーワシステム</p>
+              </a>
+            </li>
+          </ul>
+        </article>
+      </section>
+    </main>
+    <footer>
+      <div class="logo"><a href="index.html"><img src="images/logo.svg" alt="株式会社TMホールディングス"></a></div>
+      <div class="company-name">株式会社TMホールディングス</div>
+      <p class="copyright">&copy; 株式会社TMホールディングス</p>
+    </footer>
+  </div>
+  <button class="to-top" aria-label="ページの先頭へ戻る">
+    <img src="images/btm-gototop.svg" alt="トップへ戻る" class="to-top__icon" />
+  </button>
+  <script src="js/common.js"></script>
+</body>
+</html>
