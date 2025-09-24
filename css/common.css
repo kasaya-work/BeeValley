@@ -67,8 +67,8 @@ table { border-collapse: collapse; border-spacing: 0; }
    Base settings
 ========================================================= */
 :root {
-  font-size: 1vw;
-  --header-h: 14.74rem;
+  font-size: 2vw;
+  --header-h: 9.23rem;
   --s1: 1.282rem;
   --s-2: calc(var(--s1) / 2);
   --s2: calc(var(--s1) * 2);
@@ -122,14 +122,14 @@ header h1 {
   width: 100%;
   height: calc(var(--header-h) + 2px);
   margin: 0 auto 0 0;
-  padding: 2.308rem var(--s4);
+  padding: var(--s1) var(--s2);
   display: block;
   border-bottom: 0.64rem solid #0455B8;
   position: relative;
   z-index: 10;
 }
 header h1 img {
-  width: 12.821rem;
+  width: 22.82rem;
   height: auto;
 }
 header h1 img:hover {
@@ -145,8 +145,8 @@ main {
 ========================================================= */
 .hamburger {
   position:absolute;
-  top:4.87rem;
-  right:var(--s4);
+  top:3.7rem;
+  right:var(--s2);
   width:var(--hb-w);
   height:var(--hb-box);
   z-index:1100;
@@ -184,7 +184,7 @@ main {
   -webkit-overflow-scrolling: touch;
   overscroll-behavior: contain;
   background: rgba(255,255,255,0.9);
-  padding: 16px clamp(16px, 4vw, 24px) max(16px, env(safe-area-inset-bottom));
+  /* padding: 16px clamp(16px, 4vw, 24px) max(16px, env(safe-area-inset-bottom)); */
   text-align: center;
   clip-path: inset(0 0 100% 0);
   transition: clip-path .35s ease, visibility .35s ease;
@@ -197,7 +197,7 @@ main {
   pointer-events: auto;
   visibility: visible;
 }
-#global-nav ul { display: grid; gap: 2.2rem; }
+#global-nav ul { display: grid; gap: 1rem; }
 #global-nav li {
   padding-right: var(--s1);
   border-bottom: 0.256rem solid #0455B8;
@@ -210,10 +210,10 @@ main {
   display: block;
   position: relative;
   width: 100%;
-  padding: var(--s6) var(--s5) var(--s6) 1rem;
+  padding: 3.333rem 3.077rem var(--s3) 0.5rem;
   text-align: center;
   color: #000000;
-  font-size: var(--s4);
+  font-size: var(--s2);
   font-weight: 500;
   line-height: 1.4;
 }
@@ -224,16 +224,16 @@ main {
   top: 50%;
   transform: translateY(-50%) rotate(-45deg);
   border: solid #0455B8;
-  border-width: 0 0.64rem 0.64rem 0;
+  border-width: 0 0.32rem 0.32rem 0;
   padding: 0.25em;
 }
 #global-nav .nav-company-logo {
-  width: 15.385rem;
-  height: auto;
-  margin: var(--s6) auto var(--s2) auto;
+  width: 25rem;
+  /* height: auto; */
+  margin: var(--s3) auto var(--s1) auto;
 }
 #global-nav .nav-company-text {
-  font-size: 3.205rem;
+  font-size: 2.051rem;
   font-weight: 500;
   color: #000000;
   line-height: 1.4;
