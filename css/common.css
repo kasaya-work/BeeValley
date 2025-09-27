@@ -315,6 +315,7 @@ h2::after {
   letter-spacing: 0.2rem;
   line-height: 1.2;
   color: #FFFFFF;
+  text-shadow: 0 0 1rem rgba(0,0,0,0.5);
 }
 #main-text span {
   font-size: 4.872rem;
